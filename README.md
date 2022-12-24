@@ -1,6 +1,5 @@
 --How to Setup Leaderstats for Roblox 
-
-local Players = game:GetService("Players")
+```local Players = game:GetService("Players")
 
 local function setupPlayerData(player: player)
 	local leaderstats = Instance.new("Folder", player)
